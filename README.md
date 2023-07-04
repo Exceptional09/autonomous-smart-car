@@ -36,7 +36,7 @@ My project is capable of detecting lanes with the help of a Pi camera and OpenCV
 
 Also, with the help of an ultrasonic sensor, we are detecting objects coming in front of us and giving the command to stop the vehicles whenever a 15-cm-long object is detected by the sensor and the vehicles stop and take turn accordingly.
 
-############GPS############ 
+############GPS############ 	
 Use neo 6m gps module with raspberry pi to track the live location of car. 
 
 
