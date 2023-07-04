@@ -3,18 +3,18 @@ In this project, I have made an automatic self-driving car that is capable of la
 
 Hardware component used in the project is followed as:
 
-Raspberry pi
-L298N moter module
-pi cam
-ultrasonic sensor
-robot chassis
-Neo 6m gps module
+1. Raspberry pi
+2. L298N moter module
+3. pi cam
+4. ultrasonic sensor
+5. robot chassis
+6. Neo 6m gps module
 
 Software and Libraries used in the project is followed as:
 
-Open Cv
-Python 3
-Raspbian OS
+1. Open Cv
+2. Python 3
+3. Raspbian OS
 
 ############REMOTE CONTROL############
 
