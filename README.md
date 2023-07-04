@@ -37,6 +37,7 @@ My project is capable of detecting lanes with the help of a Pi camera and OpenCV
 Also, with the help of an ultrasonic sensor, we are detecting objects coming in front of us and giving the command to stop the vehicles whenever a 15-cm-long object is detected by the sensor and the vehicles stop and take turn accordingly.
 
 ############GPS############ 	
+
 Use neo 6m gps module with raspberry pi to track the live location of car. 
 
 
@@ -55,6 +56,7 @@ image working model of car
 image final circuit diagram
 
 #########COMPARISON BETWEEN HOUGH TRANSFORM AND CNN########## 
+
 The results of both algorithms in the following cases have been shown in the given table. The result has been given by pass or fail, and accuracy has been found on the basis of the number of pass cases versus the total number of cases.
 
 ![246682420-f1f65d4e-a203-43eb-803c-60d54d73b7d2](https://github.com/Exceptional09/autonomous-smart-car/assets/68737117/ca793336-d259-4528-870c-ff2288f03e5e)
@@ -65,4 +67,6 @@ The results of both algorithms in the following cases have been shown in the giv
 
 Table 1: Comparative analysis between Hough transform and Convolutional neural network
 
-########CONCLUSION######## As per the given data, we can see that CNN is working better in some situations due to the Hough transform. Both algorithms have failed on multiple cross-sectional roads. As per computing accuracy based on the number of pass-test cases. We can say that CNN has an accuracy of 77.77 percent, whereas Transform has an accuracy of 55.55 percent. But if we exclude the multiple-lane scenario where we tried all possible conditions but didn't get any success and focused only on single-lane scenarios, we found that CNN gave 100 percent accuracy whereas Hough Transform gave an accuracy of 71.42 percent as it was not able to detect two cases properly, one where lanes are broken in between and another where multiple lanes are running parallel to each other. Hence, we can say that CNN works better in single-lane scenario rather than through transform.
+########CONCLUSION######## 
+
+As per the given data, we can see that CNN is working better in some situations due to the Hough transform. Both algorithms have failed on multiple cross-sectional roads. As per computing accuracy based on the number of pass-test cases. We can say that CNN has an accuracy of 77.77 percent, whereas Transform has an accuracy of 55.55 percent. But if we exclude the multiple-lane scenario where we tried all possible conditions but didn't get any success and focused only on single-lane scenarios, we found that CNN gave 100 percent accuracy whereas Hough Transform gave an accuracy of 71.42 percent as it was not able to detect two cases properly, one where lanes are broken in between and another where multiple lanes are running parallel to each other. Hence, we can say that CNN works better in single-lane scenario rather than through transform.
